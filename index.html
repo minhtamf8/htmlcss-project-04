@@ -87,17 +87,157 @@
         <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
-        <h1>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur,
-            porro? Voluptatem, natus sint sequi inventore ea facere? Fuga quas
-            sapiente animi nemo sint nulla nihil, nesciunt rem exercitationem,
-            pariatur ducimus!
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            adipisci minima, distinctio dolorum laborum placeat porro nihil quam
-            ratione? Facilis, accusantium officiis porro unde optio illum
-            voluptatem. Quod, consequuntur dolores?
-        </p>
+        <!--  header  -->
+        <div class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <!--  logo  -->
+                    <img src="./assets/icon/Logo.svg" alt="Lucy" class="logo" />
+
+                    <!--  navbar  -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"> Home </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"> About </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Services & Rates
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link"> Review </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">
+                                    Contacts us
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--  header-action  -->
+                    <div class="header-action">
+                        <a href="#!" class="header-action__link">Sign in</a>
+                        <a href="#!" class="btn header-action__btn">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  hero  -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <!--  hero__media  -->
+                    <div class="hero__media">
+                        <div class="hero__img-wrap">
+                            <img
+                                src="./assets/img/pet01.png"
+                                alt=""
+                                class="hero__img"
+                            />
+                            <img
+                                src="./assets/icon/decor1.svg"
+                                alt=""
+                                class="hero__decor hero__decor-left"
+                            />
+                            <img
+                                src="./assets/icon/decor2.svg"
+                                alt=""
+                                class="hero__decor hero__decor-right"
+                            />
+                        </div>
+
+                        <div class="hero__img-wrap hero__img-wrap-small">
+                            <img
+                                src="./assets/img/pet02.png"
+                                alt=""
+                                class="hero__img hero__img-small"
+                            />
+                        </div>
+                        <div class="hero__list">
+                            <!-- hero-list-item 01 -->
+                            <div class="hero-list-item">
+                                <img
+                                    src="./assets/img/pet03.png"
+                                    alt=""
+                                    class="hero-list-item__thumb"
+                                />
+                                <div class="hero-list-item__info">
+                                    <p class="hero-list-item__title">
+                                        Pet Health
+                                    </p>
+                                    <div class="hero-list-item__skeleton"></div>
+                                    <div
+                                        class="hero-list-item__skeleton"
+                                        style="--width: 39px"
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <div class="hero-list-item__separate"></div>
+
+                            <!-- hero-list-item 02 -->
+                            <div class="hero-list-item">
+                                <img
+                                    src="./assets/img/pet04.png"
+                                    alt=""
+                                    class="hero-list-item__thumb"
+                                />
+                                <div class="hero-list-item__info">
+                                    <p class="hero-list-item__title">
+                                        Pet care
+                                    </p>
+                                    <div class="hero-list-item__skeleton"></div>
+                                    <div
+                                        class="hero-list-item__skeleton"
+                                        style="--width: 39px"
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  hero__content  -->
+                    <section class="hero__content">
+                        <h1 class="hero__heading">
+                            Established & Trusted Pet Care Service
+                        </h1>
+                        <div class="hero__desc">
+                            Discover a wide variety of Pawsitive services to
+                            choose from, including daycare, private walks,
+                            office duty and spa.
+                        </div>
+                        <div class="hero__row">
+                            <a href="#!" class="btn btn--primary hero__cta-btn">
+                                Book a Meet
+                                <span class="btn__icon">
+                                    <svg
+                                        width="8"
+                                        height="8"
+                                        viewBox="0 0 8 8"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M3 1.5L5.5 4L3 6.5"
+                                            stroke="#FD5056"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </span>
+                                <a href="#!" class="hero__cta-link">
+                                    Schedule a Call
+                                </a>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
